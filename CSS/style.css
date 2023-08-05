@@ -18,6 +18,12 @@ body{
     background-color: var(--greyLight);
 }
 
+header h1{
+    text-align: center;
+    font-weight: 900;
+    font-size: 150%;
+}
+
         #wrapper {
             position: absolute;
             left: 30%;
@@ -25,7 +31,9 @@ body{
             width: 500px;
             height: 500px;
             border: 1px solid var(--skyBlue);
+            float: left;
         }
+     
         #startTime {
             background-color: var(--skyBlue);
             margin-left: 33%;
