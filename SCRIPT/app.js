@@ -5,27 +5,27 @@ var questions = [
     {
         title: "Who is the president of Cameroon",
         choices: ["Jake", "Biya", "Tochi", "Amelia"],
-        answer: "Biya"
+        answer: "alerts"
     },
     {
-        title: "Where is Tochiskool located in Italy",
-        choices: ["Milan", "Torino", "Trento", "Trieste"],
-        answer: "Trieste"
+        title: "The condition in an if / else statement is enclosed within ____.",
+        choices: ["quotes", "curly brackets", "parentheses", "square brackets"],
+        answer: "parentheses"
     },
     {
-        title: "How many kids does Tochiskoo have",
-        choices: [5, 4, 3, 2],
-        answer: 2
+        title: "Arrays in Javascript can be used to store ____.",
+        choices: ["numbers and strings", "other arrays", "booleans", "all of the above"],
+        answer: "all of the above"
     },
     {
-        title: "What does Tochiskool like most in women",
-        choices: ["Breast and Nyiash", "Tall Breast and Nyiash", "Petite Breat and Nyiash", "Slim tall very big breast and Nyiash"],
-        answer: "Breast and Nyiash"
+        title: "String values must be enclosed within ____ when being assigned to variables.",
+        choices: ["commas", "curly brackets", "quotes", "parenthesis"],
+        answer: "quotes"
     },
     {
-        title: "Does his woman needs to make a certain amount of money",
-        choices: ["She just needs money", "She musht be working", "Work and Family", "No money is good too"],
-        answer: "No money is good too"
+        title: "A very useful tool for used during development and debugging for printing content to the debugger is:",
+        choices: ["Javascript", "terminal / bash", "for loops", "console log"],
+        answer: "console log"
     },
 
 ];
@@ -44,7 +44,7 @@ var questionsDiv = document.querySelector('#questionsDiv');
 var wrapper = document.querySelector("#wrapper");
 
 //Seconds left is 15 seconds per question:
-var secondsLeft = 5;
+var secondsLeft = 10;
 //Holds interval time
 var holdInterval = 0;
 //Holds penalty time
@@ -72,7 +72,6 @@ timer.addEventListener("click", function (e) {
         },1000)
     }
 })
-
 
 //All done will append last page
 
