@@ -206,7 +206,7 @@ function allDone() {
             var newScore = JSON.stringify(allScores);
             localStorage.setItem("allScores", newScore);
             //Travels to final Page
-            window.location.replace("./scores.html");
+            window.location.replace("./HTML/scores.html");
         }
     },false)
 }
